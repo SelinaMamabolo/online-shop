@@ -1,0 +1,177 @@
+/* Home Page*/
+.header{
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+.navBar{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: rgb(43, 42, 42);
+    width: calc(100% - 3rem);
+}
+
+.logo-nav{
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: rgb(239, 243, 243); 
+    font-family: cursive;
+    text-decoration: underline wavy rgb(239, 243, 243);
+}
+
+.menu-nave{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-nav{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(202, 206, 206);
+    margin-left:15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+.link-nav:hover{
+    color: white;
+}
+
+.prices{
+    width: 100%;
+    padding: 90px 0;
+}
+   
+.product_image{
+    width: 100%;
+   
+
+}
+
+.product_image img{
+    width: 100%;
+    height: 400px;
+   
+}
+p{
+  margin:10px;
+}
+h3{
+  margin: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    /* float: left; */
+    justify-content:flex-start;
+    width: 80%;
+    padding: 5px 20px;
+    /* justify-content: left; */
+    border-radius: 40px;
+
+  }
+  .container{
+      margin-top: 80px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 40px 0 0 0;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: white;
+  }
+
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .prod-title{
+      border:1px solid white;
+      margin:15px calc((25% - 20%));
+      width: calc(25% - 22px);
+      min-width: 200px;
+      height: fit-content;
+      background-color: rgb(43, 42, 42);
+      border-radius: 5px;
+      overflow: hidden;
+      padding-bottom: 20px;
+  }
+
+  .add-to-cart{
+    color: white;
+    border:2px solid white;
+    margin:0 calc((100% - 78% - 2px)/2);
+    text-align: center;
+    width: calc(78% - 2px);
+    cursor: pointer;
+
+  }
+ 
+
+  /*SignUp*/
+  h1{
+    text-align: center;
+    margin-top: 120px;
+  }
+
+  button{
+    font-size: 18;
+    background-color: rgb(43, 42, 42);
+    padding: 8px 16px;
+    border: none;
+    color: white;
+}
+
+.complete{
+    font-size: 18;
+    background-color:rgb(138, 243, 138);
+    padding: 8px 16px;
+    border: none;
+    color: white;
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+     
+  }
+  
+  input{
+    font-size: 20px;
+    padding: 4px 8px;
+    flex-grow: 1;
+    margin: 10px;
+  }
+  
+  .todo{
+    width: 500px;
+    margin: 60px auto;
+    
+  }
+  
+  .list-style{
+  font-display: flex;
+  flex-direction: column;   
+  }
+  
+  .button-style{
+    display:flex;
+    justify-content: space-between;
+    margin: 5px;
+  }
+  
+  .todo-style{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    width: auto;
+    flex-grow: 1;
+  }
